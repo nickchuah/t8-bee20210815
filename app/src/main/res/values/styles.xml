@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Catalog.CategorySwitchRowView" parent="android:Widget">
+        <item name="subtitleOn">@string/cat_transition_shared_axis_courses_bundled</item>
+        <item name="subtitleOff">@string/cat_transition_shared_axis_courses_unbundled</item>
+    </style>
+</resources>
