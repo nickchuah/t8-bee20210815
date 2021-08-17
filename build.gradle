@@ -23,9 +23,13 @@ allprojects {
     repositories {
         google()
         jcenter()
-        mavenLocal()
+        //mavenLocal()
         maven { url 'https://jitpack.io' }
     }
+}
+
+dependencies {
+    implementation 'com.github.nickchuah:t8-bee20210815:master-SNAPSHOT'
 }
 
 task clean(type: Delete) {
